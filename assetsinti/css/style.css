@@ -1011,7 +1011,7 @@ span.icon-facebook { background: url(../images/icons/c-facebook.svg); }
     MAIN FOOTER
 */
 .main-footer {
-    background: url(../images/footer-bg.jpg);
+    background: url(../images/footer-bg.png);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
