@@ -936,7 +936,7 @@ span.v-border {
     background: linear-gradient(103.25deg,rgba(89,243,249,.15),rgba(0,117,255,.1));*/
 }
 .fancy-box .inner-content:before {
-    background: url(../images/TOTHEMOON.svg);
+    background: url(../images/logo.png);
     position: absolute;
     left: 0;
     top: 50%;
