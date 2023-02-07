@@ -92,8 +92,8 @@ section {
     background: #232426;
 }
 .btn-border {
-    border: 1px solid #f02219;
-    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid #ffffff;
+    background: rgb(58 46 17);
     box-shadow: 0px -4px 100px rgba(0, 133, 255, 0.7);
 }
 .btn-border:hover {
