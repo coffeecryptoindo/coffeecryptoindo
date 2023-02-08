@@ -186,6 +186,9 @@ section {
 .check_list {
     color: #fff;
 }
+.check_listo {
+    color: #fff;
+}
 .check_list li {
     position: relative;
     padding-left: 26px;
@@ -194,7 +197,18 @@ section {
     font-size: 16px;
     margin-bottom: 14px;
 }
+.check_listo li {
+    position: relative;
+    padding-left: 26px;
+    line-height: 19px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 14px;
+}
 .check_list li:last-child {
+    margin-bottom: 0;
+}
+.check_listo li:last-child {
     margin-bottom: 0;
 }
 .check_list li::before {
@@ -208,8 +222,23 @@ section {
     background-position: left top;
     margin-top: 2px;
 }
+.check_listo li::before {
+    background: url(../images/icons/check-list.svg);
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 15px;
+    height: 15px;
+    background-position: left top;
+    margin-top: 2px;
+}
 .check_list li.done::before {
     background: url(../images/icons/check-list-done.svg);
+}
+.check_listo li.done::before {
+    background: url(../images/icons/check-list-done.svg);
+    display: none;
 }
 /* Overlay */
 .overlay-wrap { position: relative; }
@@ -1519,6 +1548,10 @@ img.img-3 {
         margin-top: 4px;
     }
     .check_list li {
+        font-size: 14px;
+        margin-bottom: 9px;
+    }
+    .check_listo li {
         font-size: 14px;
         margin-bottom: 9px;
     }
